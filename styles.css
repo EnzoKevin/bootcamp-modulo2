@@ -4,6 +4,11 @@ body {
   background-color: gray;
 }
 
+* {
+  text-align: center;
+  color: #fff;
+}
+
 #section {
   width: 80vw;
   height: fit-content;
@@ -24,6 +29,7 @@ h1 {
 }
 
 p {
+  color: #fff;
   margin: 0px 0px 10px 0px;
 }
 
@@ -47,6 +53,9 @@ p {
   display: flex;
   max-width: 500px;
   width: 100%;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #quadrado {
@@ -80,8 +89,9 @@ p {
   }
 }
 
-.subtitle {
+#subTitle {
   margin: 10px 0px 0px 0px;
+  color: #fff;
 }
 
 .voltar {
