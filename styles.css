@@ -76,19 +76,6 @@ p {
   border: 10px solid darkblue;
   border-radius: 10px;
 }
-
-#quadradoContainer {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-  @media (max-width: 800px) {
-    gap: 10px;
-    flex-direction: column;
-  }
-}
-
 #subTitle {
   margin: 10px 0px 0px 0px;
   color: #fff;
@@ -102,4 +89,16 @@ p {
   background-color: #000;
 
   margin: 0px 0px 10px 0px;
+}
+
+#quadradoContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  @media (max-width: 800px) {
+    gap: 10px;
+    flex-direction: column;
+  }
 }
