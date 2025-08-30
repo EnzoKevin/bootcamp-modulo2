@@ -12,6 +12,7 @@ body {
 #section {
   width: 80vw;
   height: fit-content;
+  max-width: 1400px;
 
   display: flex;
   justify-content: center;
@@ -97,7 +98,7 @@ p {
   align-items: center;
   justify-content: space-evenly;
 
-  @media (max-width: 800px) {
+  @media screen and (max-width: 946px) {
     gap: 10px;
     flex-direction: column;
   }
